@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="610ac934-e295-46ee-9698-c34cecbb099f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RotatePropellor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gKtUTdcp4uesdf2X8OcXjYgI6o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="610ac934-e295-46ee-9698-c34cecbb099f" name="Default Changelist" comment="" />
+      <created>1597875130065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597875130065</updated>
+      <workItem from="1597875135484" duration="43000" />
+      <workItem from="1597879210006" duration="5000" />
+      <workItem from="1597882594652" duration="134000" />
+      <workItem from="1597882749021" duration="622000" />
+      <workItem from="1597885845586" duration="582000" />
+      <workItem from="1597886540213" duration="139000" />
+      <workItem from="1598243069915" duration="5967000" />
+      <workItem from="1598249610717" duration="616000" />
+      <workItem from="1598250240881" duration="2901000" />
+      <workItem from="1598295262204" duration="1549000" />
+      <workItem from="1598324770802" duration="487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1597882687475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597882687475" />
+    <state x="812" y="189" key="SettingsEditor" timestamp="1598250225552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="812" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598250225552" />
+  </component>
+</project>
