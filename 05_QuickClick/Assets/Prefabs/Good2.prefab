@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4320110946533159560}
   - component: {fileID: 4320110946533159561}
   - component: {fileID: 4320110946533159562}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Good2
   m_TagString: Good
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4320110946533203818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.191, y: 3.213, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -108,7 +108,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4320110946533203818}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.32699585, y: 0.32699984, z: 0.32700062}
@@ -129,5 +129,5 @@ MonoBehaviour:
   maxForceUp: 17
   minSpinTorque: -10
   maxSpinTorque: 10
-  xMaxBorder: 4.5
   xMinBorder: -4.5
+  xMaxBorder: 4.5

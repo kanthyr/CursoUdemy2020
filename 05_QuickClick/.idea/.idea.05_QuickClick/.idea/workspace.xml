@@ -36,13 +36,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FollowMouse.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_Scripts/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/FollowMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Target.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599686756641</updated>
       <workItem from="1599686768999" duration="3528000" />
+      <workItem from="1599690913206" duration="9398000" />
     </task>
     <servers />
   </component>
@@ -117,6 +120,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

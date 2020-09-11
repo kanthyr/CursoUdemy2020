@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -13,12 +12,16 @@ public class Target : MonoBehaviour
     [SerializeField] private float maxSpinTorque = 10f;
     [SerializeField] private float xMinBorder = -4.5f;
     [SerializeField] private float xMaxBorder = 4.5f;
+    [SerializeField] private int pointValue = 1;
+
+    private GameManager gameManager;
     
     private Rigidbody _rigidbody;
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        gameManager = FindObjectOfType<GameManager>();
         StartLaunch();
     }
 
@@ -67,6 +70,19 @@ public class Target : MonoBehaviour
         if (other.CompareTag("KillZone"))
         {
             Destroy(this.gameObject);
+            if (pointValue > 0)
+            {
+                gameManager.UpdateScore(-pointValue * 5);
+            }
+        }
+    }
+
+    private void OnMouseOver()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            Destroy(this.gameObject);
+            gameManager.UpdateScore(pointValue);
         }
     }
 }
