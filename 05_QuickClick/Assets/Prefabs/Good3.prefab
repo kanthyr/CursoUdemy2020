@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2500913673377700397}
   - component: {fileID: 2500913673377700396}
   m_Layer: 9
-  m_Name: Good4
+  m_Name: Good3
   m_TagString: Good
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -131,3 +131,6 @@ MonoBehaviour:
   maxSpinTorque: 10
   xMinBorder: -4.5
   xMaxBorder: 4.5
+  pointValue: 1
+  explotion: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8,
+    type: 3}

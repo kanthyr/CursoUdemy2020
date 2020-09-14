@@ -131,3 +131,6 @@ MonoBehaviour:
   maxSpinTorque: 10
   xMinBorder: -4.5
   xMaxBorder: 4.5
+  pointValue: 1
+  explotion: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb,
+    type: 3}

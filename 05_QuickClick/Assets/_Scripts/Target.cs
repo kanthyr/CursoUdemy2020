@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Target : MonoBehaviour
@@ -13,6 +10,7 @@ public class Target : MonoBehaviour
     [SerializeField] private float xMinBorder = -4.5f;
     [SerializeField] private float xMaxBorder = 4.5f;
     [SerializeField] private int pointValue = 1;
+    [SerializeField] private ParticleSystem explotion = null;
 
     private GameManager gameManager;
     
@@ -70,19 +68,26 @@ public class Target : MonoBehaviour
         if (other.CompareTag("KillZone"))
         {
             Destroy(this.gameObject);
-            if (pointValue > 0)
+            if (gameManager.gameState == GameManager.GameState.inGame)
             {
-                gameManager.UpdateScore(-pointValue * 5);
+                if (this.gameObject.CompareTag("Good"))
+                {
+                    gameManager.GameOver();
+                }
             }
         }
     }
 
     private void OnMouseOver()
     {
-        if (Input.GetButton("Fire1"))
+        if (gameManager.gameState == GameManager.GameState.inGame)
         {
-            Destroy(this.gameObject);
-            gameManager.UpdateScore(pointValue);
+            if (Input.GetButton("Fire1"))
+            {
+                Instantiate(explotion, this.transform.position, explotion.transform.rotation);
+                Destroy(this.gameObject);
+                gameManager.UpdateScore(pointValue);
+            }
         }
     }
 }
