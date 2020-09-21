@@ -20,7 +20,19 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - PannerTextureA:
+        m_Texture: {fileID: 2800000, guid: ce48826f1edd4da4ea5fe4250586c4ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - PannerTextureB:
+        m_Texture: {fileID: 2800000, guid: feebd9fe3a61f384286140f9201d038d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_41A06DB1_Out_0:
+        m_Texture: {fileID: 2800000, guid: ffa3bbfb0a2a37740aec32cc4f3ed28c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_6544F4A1_Out_0:
         m_Texture: {fileID: 2800000, guid: ffa3bbfb0a2a37740aec32cc4f3ed28c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -32,12 +44,26 @@ Material:
         m_Texture: {fileID: 2800000, guid: b2bf2fce6ac5acf41b89f5759488edae, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_84322279_Out_0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_AA2B723_Out_0:
+        m_Texture: {fileID: 2800000, guid: acafca17974ab26479447cc6ce3005c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_BD8B5564_Out_0:
         m_Texture: {fileID: 2800000, guid: be14171909e301d4c8c926d395216a01, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_FE76F153_Out_0:
+        m_Texture: {fileID: 2800000, guid: 0916a5d6025375e4d959f97e3fd03bfb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - ElectricSpeed: -0.1
+    - PannerSpeedA: 0.005
+    - PannerSpeedB: -0.05
     - RimColorOrigin: 0
     - RimColorSpread: 0.1
     - RimFillFrequency: 3
@@ -46,6 +72,8 @@ Material:
     - RotateSpeedPos: 1
     m_Colors:
     - ElectricColor: {r: 0, g: 0.07363939, b: 1, a: 1}
+    - PannerTilingA: {r: 1, g: 0.1, b: 0, a: 0}
+    - PannerTilingB: {r: 1, g: 0.5, b: 0, a: 0}
     - RimColorA: {r: 0.6645169, g: 0, b: 1.498039, a: 0}
     - RimColorB: {r: 0, g: 0.0490961, b: 2, a: 0}
     - RimColorFill: {r: 0.3324516, g: 0, b: 0.7454045, a: 0}
